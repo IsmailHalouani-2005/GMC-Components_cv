@@ -1,19 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -21,18 +10,40 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.Title {
   color: white;
+  font-size:3em;
+  font-family: 'Montez', 'Helvetica Neue', cursive, 'Montserrat',sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header {
+  max-width: 65%;
+  max-height: 65%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 3rem;
+  overflow: hidden;
+  padding: 2em;
+  font-family: 'Montserrat', sans-serif, 'Roboto';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.adress {
+  font-size: 0.65em;
+  opacity: 95%
+}
+
+.photo {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50em;
 }
